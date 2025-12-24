@@ -138,3 +138,483 @@
   transform: translateY(-1px);
 }
 
+/* PROFILE PAGE */
+
+.profile-container {
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.profile-info {
+  background: #f5f7ff;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.skill-section input {
+  padding: 10px;
+  width: 200px;
+  margin-right: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.skill-section button {
+  padding: 10px 18px;
+  background-color: #4b3cff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.skill-list {
+  margin-top: 30px;
+}
+
+.skill-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.verified {
+  color: green;
+  font-weight: 600;
+}
+
+.unverified {
+  color: orange;
+  font-weight: 600;
+}
+
+.profile-container {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.profile-info {
+  background: #f5f7ff;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.skill-section {
+  margin-bottom: 40px;
+}
+
+.skill-section input,
+.skill-section select {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.skill-section button {
+  padding: 10px 18px;
+  background-color: #4b3cff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.skill-group {
+  margin-bottom: 25px;
+}
+
+.skill-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.verified {
+  color: green;
+  font-weight: 600;
+}
+
+.unverified {
+  color: orange;
+  font-weight: 600;
+}
+
+.empty-text {
+  color: #777;
+  font-style: italic;
+}
+
+/* LINKEDIN-STYLE PROFILE PAGE */
+
+.profile-page {
+  background-color: #f3f6f8;
+  min-height: 100vh;
+  padding: 30px 15px;
+}
+
+.card {
+  background: #ffffff;
+  max-width: 900px;
+  margin: 0 auto 20px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+.profile-header h2 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #1c1c1c;
+}
+
+.profile-header p {
+  margin-top: 5px;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+/* ADD SKILL */
+.add-skill-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.add-skill-row input,
+.add-skill-row select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+}
+
+.add-skill-row button {
+  padding: 10px 18px;
+  background-color: #0a66c2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.add-skill-row button:hover {
+  background-color: #004182;
+}
+
+/* SKILLS */
+.skill-group {
+  margin-top: 20px;
+}
+
+.skill-group h4 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.skill-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.skill-item:last-child {
+  border-bottom: none;
+}
+
+.badge {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.badge-verified {
+  background-color: #e6f4ea;
+  color: #1e7e34;
+}
+
+.badge-unverified {
+  background-color: #fff4e5;
+  color: #b45309;
+}
+
+.empty-text {
+  color: #777;
+  font-style: italic;
+}
+/* LINKEDIN-STYLE PROFILE PAGE */
+
+.profile-page {
+  background-color: #f3f6f8;
+  min-height: 100vh;
+  padding: 30px 15px;
+}
+
+.card {
+  background: white;
+  max-width: 900px;
+  margin: 0 auto 20px auto;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+.profile-header h2 {
+  margin: 0;
+  font-size: 1.9rem;
+}
+
+.profile-header p {
+  margin-top: 6px;
+  color: #555;
+}
+
+/* ADD SKILL */
+.add-skill-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.add-skill-row input,
+.add-skill-row select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.add-skill-row button {
+  padding: 10px 18px;
+  background-color: #0a66c2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.add-skill-row button:hover {
+  background-color: #004182;
+}
+
+/* SKILLS */
+.skill-group {
+  margin-top: 20px;
+}
+
+.skill-group h4 {
+  margin-bottom: 10px;
+}
+
+.skill-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.skill-item:last-child {
+  border-bottom: none;
+}
+
+.verify-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.verify-actions button {
+  padding: 5px 10px;
+  font-size: 0.75rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.verify-actions button:first-child {
+  background-color: #e8f0fe;
+  color: #1a73e8;
+}
+
+.verify-actions button:last-child {
+  background-color: #f3e8ff;
+  color: #7c3aed;
+}
+
+.badge {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.badge-verified {
+  background-color: #e6f4ea;
+  color: #1e7e34;
+}
+
+.empty-text {
+  color: #777;
+  font-style: italic;
+}
+
+/* FEED PAGE */
+
+.feed-page {
+  background-color: #f3f6f8;
+  min-height: 100vh;
+  padding: 30px 15px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 90px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: none;
+  font-size: 0.95rem;
+}
+
+.post-actions {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-actions label {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.post-actions button {
+  padding: 8px 18px;
+  background-color: #0a66c2;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.post-item {
+  padding: 15px 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.post-item:last-child {
+  border-bottom: none;
+}
+
+.post-text {
+  margin-bottom: 8px;
+}
+
+.post-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: #777;
+}
+/* SEARCH PAGE */
+
+.search-page {
+  background-color: #f3f6f8;
+  min-height: 100vh;
+  padding: 30px 15px;
+}
+
+.search-page input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.search-page button {
+  padding: 10px 22px;
+  background-color: #0a66c2;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.result-item {
+  padding: 12px 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.result-item:last-child {
+  border-bottom: none;
+}
+
+/* NAVBAR */
+
+.navbar {
+  height: 60px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #0a66c2;
+}
+
+.navbar-center {
+  display: flex;
+  gap: 25px;
+}
+
+.navbar-center a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+.navbar-center a:hover {
+  color: #0a66c2;
+}
+
+.navbar-right button {
+  padding: 6px 14px;
+  border: none;
+  background-color: #0a66c2;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.navbar-right button:hover {
+  background-color: #004182;
+}
